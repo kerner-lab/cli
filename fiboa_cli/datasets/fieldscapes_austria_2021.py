@@ -42,14 +42,7 @@ COLUMNS = {
     "SL_FLAECHE": "area",
     "EC_hcat_c": "crop_id",
     "EC_hcat_n": "crop_name",
-    "geometry": "geometry",
-    "SNAR_BEZEI": "SNAR_BEZEI",
-    "GEO_ID" : "GEO_ID",
-    "SNAR_CODE" : "SNAR_CODE",
-    "GEO_PART_K" : "GEO_PART_K",
-    "FART_ID" : "FART_ID",
-    "GML_LENGTH" : "GML_LENGTH",
-    "EC_trans_n" : "EC_trans_n"
+    "geometry": "geometry"
 }
 
 # Add columns with constant values.
@@ -86,29 +79,9 @@ MIGRATION = None
 # Schemas for the fields that are not defined in fiboa
 # Keys must be the values from the COLUMNS dict, not the keys
 MISSING_SCHEMAS = {
-    "required": ["SNAR_BEZEI", "GEO_ID", "SNAR_CODE", "GEO_PART_K", "FART_ID", "GML_LENGTH", "EC_trans_n"], # i.e. non-nullable properties
+    "required": [ ], # i.e. non-nullable properties
     "properties": {
-        "SNAR_BEZEI": {
-            "type": "string"
-        },
-        "GEO_ID": {
-            "type": "int64"
-        },
-        "SNAR_CODE": {
-            "type": "int64"
-        },
-        "GEO_PART_K": {
-            "type": "int64"
-        },
-        "FART_ID": {
-            "type": "int64"
-        },
-        "GML_LENGTH": {
-            "type": "int64"
-        },
-        "EC_trans_n": {
-            "type": "string"
-        }
+        
     }
 }
 
