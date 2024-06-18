@@ -18,7 +18,7 @@ ID = "fieldscapes_kenya_2022"
 # Title of the collection
 TITLE = "Field boundaries for Kenya (Fieldscapes)"
 # Description of the collection. Can be multiline and include CommonMark.
-DESCRIPTION = """ The dataset contains field boundaries for the Kenya."""
+DESCRIPTION = " The dataset contains field boundaries for the Kenya."
 # Bounding box of the data in WGS84 coordinates
 BBOX = [34.2902402, -3.73181826832162, 38.721089102432, 1.21940779553077]
 
@@ -77,9 +77,11 @@ MIGRATION = None
 # Schemas for the fields that are not defined in fiboa
 # Keys must be the values from the COLUMNS dict, not the keys
 MISSING_SCHEMAS = {
-    "required": [ ], # i.e. non-nullable properties
+    "required": [ "crop_name" ], # i.e. non-nullable properties
     "properties": {
-        
+        "crop_name": {
+            "type": "string"
+        }
     }
 }
 

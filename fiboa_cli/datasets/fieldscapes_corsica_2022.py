@@ -18,7 +18,7 @@ ID = "fieldscapes_corsica_2022"
 # Title of the collection
 TITLE = "Field boundaries for Corsica (Fieldscapes)"
 # Description of the collection. Can be multiline and include CommonMark.
-DESCRIPTION = """ The dataset contains field boundaries for the Corsica."""
+DESCRIPTION = " The dataset contains field boundaries for the Corsica."
 # Bounding box of the data in WGS84 coordinates
 BBOX = [8.684215733091785, 41.726866147253986, 9.55961872699482, 42.808624416493835]
 
@@ -79,8 +79,14 @@ MIGRATION = None
 # Schemas for the fields that are not defined in fiboa
 # Keys must be the values from the COLUMNS dict, not the keys
 MISSING_SCHEMAS = {
-    "required": [], # i.e. non-nullable properties
+    "required": [ "crop_id", "crop_name" ], # i.e. non-nullable properties
     "properties": {
+        "crop_id": {
+            "type": "int64"
+        },
+        "crop_name": {
+            "type": "string"
+        }
     }
 }
 
