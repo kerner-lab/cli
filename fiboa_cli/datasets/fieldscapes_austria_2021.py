@@ -79,9 +79,14 @@ MIGRATION = None
 # Schemas for the fields that are not defined in fiboa
 # Keys must be the values from the COLUMNS dict, not the keys
 MISSING_SCHEMAS = {
-    "required": [ ], # i.e. non-nullable properties
+    "required": [ "crop_id", "crop_name" ], # i.e. non-nullable properties
     "properties": {
-        
+        "crop_id": {
+            "type": "int64"
+        },
+        "crop_name": {
+            "type": "string"
+        }
     }
 }
 
