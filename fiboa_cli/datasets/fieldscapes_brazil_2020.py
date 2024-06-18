@@ -18,7 +18,7 @@ ID = "fieldscapes_brazil_2020"
 # Title of the collection
 TITLE = "Field boundaries for Brazil (Fieldscapes)"
 # Description of the collection. Can be multiline and include CommonMark.
-DESCRIPTION = """ The dataset contains field boundaries for the Brazil."""
+DESCRIPTION = "The dataset contains field boundaries for the Brazil."
 # Bounding box of the data in WGS84 coordinates
 BBOX = [-46.39769258914609, -13.832659641089542, -45.56417133292678, -11.835700893930944]
 

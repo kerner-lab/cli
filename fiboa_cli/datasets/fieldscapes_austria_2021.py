@@ -18,7 +18,7 @@ ID = "fieldscapes_austria_2021"
 # Title of the collection
 TITLE = "Field boundaries for Austria (Fieldscapes)"
 # Description of the collection. Can be multiline and include CommonMark.
-DESCRIPTION = """ The dataset contains field boundaries for the Austria."""
+DESCRIPTION = "The dataset contains field boundaries for the Austria."
 # Bounding box of the data in WGS84 coordinates
 BBOX = [13.239974981742014, 48.204179578647796, 16.960943738443856, 48.974515524098045]
 
