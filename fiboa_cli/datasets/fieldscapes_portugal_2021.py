@@ -31,7 +31,7 @@ ATTRIBUTION = "Institute of Agriculture and Fisheries Financing, IP"
 
 # License of the data, either
 # 1. a SPDX license identifier (including "dl-de/by-2-0" / "dl-de/zero-2-0"), or
-LICENSE = "	CC-BY-NC-4.0" # DOUBTFUL ABOUT THIS LICENSE - NEEDS TO BE CONFIRMED @TODO @Matthias, Chris
+LICENSE = "CC-BY-NC-4.0" # DOUBTFUL ABOUT THIS LICENSE - NEEDS TO BE CONFIRMED @TODO @Matthias, Chris
 # 2. a STAC Link Object with relation type "license"
 # LICENSE = {"title": "CC-BY-4.0", "href": "https://creativecommons.org/licenses/by/4.0/", "type": "text/html", "rel": "license"}
 
