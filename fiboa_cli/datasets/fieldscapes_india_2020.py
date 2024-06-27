@@ -23,7 +23,7 @@ DESCRIPTION = " The dataset contains field boundaries for the India."
 BBOX = [68.79696863780806, 9.248616997240717, 96.23688077261794, 34.5325092898945]
 
 # Provider name, can be None if not applicable, must be provided if PROVIDER_URL is provided
-PROVIDER_NAME = "Sherrie Wang1, Francois Waldner, David B. Lobell"
+PROVIDER_NAME = "Sherrie Wang, Francois Waldner, David B. Lobell"
 # URL to the homepage of the data or the provider, can be None if not applicable
 PROVIDER_URL = "https://zenodo.org/records/7315090"
 # Attribution, can be None if not applicable
