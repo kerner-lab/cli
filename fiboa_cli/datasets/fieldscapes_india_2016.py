@@ -11,10 +11,10 @@ from ..convert_utils import convert as convert_
 # Supported protcols: HTTP(S), GCS, S3, or the local file system
 
 # Local URI added to the repository for initial conversion, Original Source https://beta.source.coop/esa/fusion-competition/
-URI = "/home/byteboogie/work/labwork_hkerner/fieldscapes/india/boundaries_india_2020.gpkg"
+URI = "/home/byteboogie/work/labwork_hkerner/fieldscapes/india/boundaries_india_2016.gpkg"
 
 # Unique identifier for the collection
-ID = "fieldscapes_india_2020"
+ID = "fieldscapes_india_2016"
 # Title of the collection
 TITLE = "Field boundaries for India (Fieldscapes)"
 # Description of the collection. Can be multiline and include CommonMark.
@@ -46,7 +46,7 @@ COLUMNS = {
 # Add columns with constant values.
 # The key is the column name, the value is a constant value that's used for all rows.
 ADD_COLUMNS = {
-    "determination_datetime": "2020-01-01T00:00:00Z"
+    "determination_datetime": "2016-01-01T00:00:00Z"
 }
 
 # A list of implemented extension identifiers
